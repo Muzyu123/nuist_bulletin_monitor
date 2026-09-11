@@ -1,6 +1,6 @@
-# nuist-bulletin-monitor
+# nuist_bulletin_monitor
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Muzyu123/nuist-bulletin-monitor) ![GitHub issues](https://img.shields.io/github/issues-raw/Muzyu123/nuist-bulletin-monitor) ![GitHub](https://img.shields.io/github/license/Muzyu123/nuist-bulletin-monitor) ![GitHub followers](https://img.shields.io/github/followers/Muzyu123?style=social) ![GitHub stars](https://img.shields.io/github/stars/Muzyu123/nuist-bulletin-monitor?style=social)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Muzyu123/nuist_bulletin_monitor) ![GitHub issues](https://img.shields.io/github/issues-raw/Muzyu123/nuist_bulletin_monitor) ![GitHub](https://img.shields.io/github/license/Muzyu123/nuist_bulletin_monitor) ![GitHub followers](https://img.shields.io/github/followers/Muzyu123?style=social) ![GitHub stars](https://img.shields.io/github/stars/Muzyu123/nuist_bulletin_monitor?style=social)
 
 ## 功能亮点
 > - 适用新网站。代码构建于2026年9月
