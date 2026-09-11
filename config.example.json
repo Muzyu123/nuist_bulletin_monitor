@@ -1,0 +1,42 @@
+{
+  "smtp": {
+    "host": "smtp.163.com",
+    "port": 465,
+    "ssl": true,
+    "user": "你的邮箱@163.com",
+    "password": "在这里填授权码",
+    "sender_name": "南信大公告监控"
+  },
+
+  "mail": {
+    "to": ["收件人@example.com"],
+    "subject_prefix": "[南信大公告]"
+  },
+
+  "keywords": [
+    "国家自然科学基金",
+    "重点研发计划",
+    "科研项目申报",
+    "职称",
+    "人才招聘"
+  ],
+
+  "notify_all": false,
+
+  "keyword_match": {
+    "fields": ["title", "category", "department"],
+    "case_sensitive": false
+  },
+
+  "fetch": {
+    "pages": 2,
+    "delay": 0.4,
+    "timeout": 20,
+    "retries": 3
+  },
+
+  "state_file": "Run/state.json",
+  "log_file": "Run/monitor.log",
+  "notify_on_first_run": true,
+  "max_seen": 5000
+}
