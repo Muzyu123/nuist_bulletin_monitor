@@ -37,7 +37,7 @@ Python >= 3.8：仅使用 Python 标准库，无需引入第三方库<br>
 git clone https://github.com/Muzyu123/nuist_bulletin_monitor.git
 ```
 
-2、修改 config.json 内的以下配置：
+2、复制一份 config.example.json，重命名为 config.json，修改以下配置：
 
 ```Shell
 "smtp":   { "user": "你的邮箱@xxx.com", "password": "16位授权码" },
