@@ -48,7 +48,7 @@ git clone https://github.com/Muzyu123/nuist_bulletin_monitor.git
 3、验证配置是否正确，终端运行以下命令：
 
 ```Shell
-cd nuist-bulletin-monitor  # 跳转到你的目录
+cd nuist_bulletin_monitor  # 跳转到你的目录
 ./run.sh --check-config    # 检测配置项是否齐全
 ./run.sh --test-mail       # 检测SMTP是否可用/授权码是否正确
 ./run.sh --preview         # 检测关键词合理性，输出关键词在最新 100 条公告上命中项
@@ -75,7 +75,7 @@ cd nuist-bulletin-monitor  # 跳转到你的目录
 ### 日常维护
 
 ```Shell
-cd nuist-bulletin-monitor
+cd nuist_bulletin_monitor
 
 ./install_cron.sh --status    # 看任务状态 + 最近 10 行日志
 tail -f Run/monitor.log       # 实时监控日志
