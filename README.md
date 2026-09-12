@@ -34,7 +34,7 @@ Python >= 3.8：仅使用 Python 标准库，无需引入第三方库<br>
 1、克隆项目：
 
 ```Shell
-git clone https://github.com/<用户名>/nuist-bulletin-monitor.git
+git clone https://github.com/Muzyu123/nuist_bulletin_monitor.git
 ```
 
 2、修改 config.json 内的以下配置：
