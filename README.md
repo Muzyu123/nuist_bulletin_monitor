@@ -65,6 +65,17 @@ cd nuist_bulletin_monitor  # 跳转到你的目录
 ```Shell
 ./install_cron.sh
 ```
+若提示“crontab: command not found”则需要安装crontab<br>
+Debian/Ubuntu运行：<br>
+```
+apt-get install cron
+```
+挂载成功会返回：<br>
+> 配置检查 ...<br>
+> 2026-09-12 16:13:22 INFO 配置检查通过<br>
+> 已安装：<br>
+>   7 * * * * xxx/nuist_bulletin_monitor/run.sh >> xxx/nuist_bulletin_monitor/Run/cron.log 2>&1 # nuist-bulletin-monitor<br>
+> 下一次触发在每小时的第 7 分钟。查看状态：xxx/nuist_bulletin_monitor/install_cron.sh --status<br>
 
 6、确认运行状态
 
